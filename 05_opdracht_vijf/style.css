@@ -1,0 +1,65 @@
+*{background-color:#f0dfc7;
+}
+    
+body {
+    font-family: Helvetica;
+}
+#logo {
+    color:#444dab; 
+    font-size: 90px; 
+}
+
+.yellow-background {
+    background-color:#e8fc03; 
+    margin: 50px;
+    color:#62d9dd; 
+    font-family: courier;
+}
+
+.coloured-border-1 {
+    border: 2px solid hsl(305, 94%, 54%);
+    margin: 50px;
+    margin-bottom: 10px;
+    padding: 20px 50px;
+}
+
+.coloured-border-2 {
+    border: 5px dotted #5858FA;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+nav {
+    font-size:12px; font-family: Georgia;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.nav-li {
+    float: left;
+  }
+  
+a {
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+ 
+  /* Change the link color on hover */
+li a:hover {
+    background-color: rgb(242, 25, 250);
+    color:#c6d6ca;
+  }
+
+.active {
+    background-color: #4CAF50;
+  }
